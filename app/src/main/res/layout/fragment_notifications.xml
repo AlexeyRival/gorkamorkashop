@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.notifications.NotificationsFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        >
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Вы покупала"
+        android:textStyle="bold"
+        android:textSize="20pt"
+        android:textAlignment="center"
+        android:gravity="center"
+        />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="6"/>
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="20dp"
+            android:text="Я продавала"
+            android:textStyle="bold"
+            android:textSize="7pt"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:onClick="BecomeSeller"
+            />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="2"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

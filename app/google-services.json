@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "46645529530",
+    "project_id": "dakka-e148c",
+    "storage_bucket": "dakka-e148c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:46645529530:android:340c38301cb17a2fb7ab83",
+        "android_client_info": {
+          "package_name": "com.rivalsoftware.gorkamorkashop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBr_wXzxBR-U0l23ZpHDcWJ4Bj0qnyJXrA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
